@@ -1,0 +1,29 @@
+package pdfExtractor;
+import javax.swing.*;
+public class MenuBar {
+	MenuBar(){  
+     JFrame f= new JFrame();  
+     JMenuBar mb=new JMenuBar();  
+     JMenu file =new JMenu("Edit");   
+    JMenuItem undo = new JMenuItem("Undo");
+ 	JMenuItem redo = new JMenuItem("Redo");
+ 	JMenuItem copy = new JMenuItem("Copy");
+ 	JMenuItem paste = new JMenuItem("Paste");
+ 	JMenuItem delete = new JMenuItem("Delete");
+ 	JMenuItem selectAll = new JMenuItem("Select all");
+ 	JMenuItem takeSnap = new JMenuItem("Take snapshot");
+ 	JMenuItem find = new JMenuItem("Find");
+ 	JMenu menu2 = new JMenu("View");
+ 	JMenu menu3 = new JMenu("Help");
+ 	JMenuBar menuBar = new JMenuBar();
+    file.add(undo); file.add(redo); file.add(copy);  
+    mb.add(file);  
+     f.setJMenuBar(mb);  
+     f.setSize(400,400);  
+     f.setLayout(null);  
+     f.setVisible(true);  
+}  
+public static void main(String args[])  
+{  
+new MenuBar();  
+} }
