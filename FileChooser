@@ -58,7 +58,7 @@ package lab1_testassafdfasd;
 	          
 	        HBox root = new HBox();  
 	          
-	        root.setSpacing(20);  
+	        root.setSpacing(20);  sdsd
 	      
 	        Scene scene = new Scene(root,350,100);  
 	        primaryStage.setScene(scene);  
@@ -69,9 +69,11 @@ package lab1_testassafdfasd;
 	    public static void main(String[] args) {  
 	        launch(args);  
 	    }  
-	  
+	  asdfsfdasdfafsasffdasf
 	} 
+
 	safsdfsd
 	
 	lab_2_user_1
+
 
